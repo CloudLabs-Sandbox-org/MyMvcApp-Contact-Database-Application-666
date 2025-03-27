@@ -1,0 +1,73 @@
+{
+  "id": "/subscriptions/179658e8-81e6-4f2c-acce-5012138ecc62/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Resources/deployments/fortunecloudllc1671478745936.storage_account_arm_-20250327170246",
+  "name": "fortunecloudllc1671478745936.storage_account_arm_-20250327170246",
+  "type": "Microsoft.Resources/deployments",
+  "properties": {
+    "templateLink": {
+      "uri": "https://catalogartifact.azureedge.net/publicartifacts/fortunecloudllc1671478745936.storage_account_arm_template-9e817498-3cf2-42a9-a2da-8c639e331476-storage_plan_01/Artifacts/mainTemplate.json",
+      "contentVersion": "1.0.0.0"
+    },
+    "templateHash": "8922077170020807963",
+    "parameters": {
+      "storageAccountNamePrefix": {
+        "type": "String",
+        "value": "armnymvcapp"
+      },
+      "storageAccountType": {
+        "type": "String",
+        "value": "Premium_LRS"
+      },
+      "location": {
+        "type": "String",
+        "value": "eastus"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2025-03-27T17:05:19.3401482Z",
+    "correlationId": "952f9bac-f1cb-4400-8fce-d38cb6f746b7",
+    "providers": [
+      {
+        "namespace": "Microsoft.Resources",
+        "resourceTypes": [
+          {
+            "resourceType": "deployments",
+            "locations": [
+              null
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Storage",
+        "resourceTypes": [
+          {
+            "resourceType": "storageAccounts",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputs": {
+      "storageEndpoint": {
+        "type": "String",
+        "value": "https://armnymvcapped3rps5twd7jg.blob.core.windows.net/"
+      }
+    },
+    "outputResources": [
+      {
+        "id": "/subscriptions/179658e8-81e6-4f2c-acce-5012138ecc62/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Storage/storageAccounts/armnymvcapped3rps5twd7jg"
+      }
+    ],
+    "validationLevel": "Template"
+  },
+  "tags": {
+    "marketplaceItemId": "fortunecloudllc1671478745936.storage_account_arm_templatestorage_plan_01"
+  }
+}

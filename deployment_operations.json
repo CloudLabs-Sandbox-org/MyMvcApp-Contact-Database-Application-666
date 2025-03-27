@@ -1,0 +1,66 @@
+[
+  {
+    "id": "/subscriptions/179658e8-81e6-4f2c-acce-5012138ecc62/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Resources/deployments/fortunecloudllc1671478745936.storage_account_arm_-20250327170246/operations/5FCF906DCAB63316",
+    "operationId": "5FCF906DCAB63316",
+    "properties": {
+      "provisioningOperation": "Read",
+      "provisioningState": "Succeeded",
+      "timestamp": "2025-03-27T17:05:19.1392286Z",
+      "duration": "PT21.8883415S",
+      "trackingId": "466da2d0-ae0a-4dcb-b5de-c7c0e2e90ced",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/179658e8-81e6-4f2c-acce-5012138ecc62/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Storage/storageAccounts/armnymvcapped3rps5twd7jg",
+        "resourceType": "Microsoft.Storage/storageAccounts",
+        "resourceName": "armnymvcapped3rps5twd7jg",
+        "apiVersion": "2021-09-01"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/179658e8-81e6-4f2c-acce-5012138ecc62/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Resources/deployments/fortunecloudllc1671478745936.storage_account_arm_-20250327170246/operations/A2C58610BEC3BB5F",
+    "operationId": "A2C58610BEC3BB5F",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2025-03-27T17:05:18.9469437Z",
+      "duration": "PT21.6960566S",
+      "trackingId": "69b02497-1e75-417a-bedd-1de65e58c524",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/179658e8-81e6-4f2c-acce-5012138ecc62/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Storage/storageAccounts/armnymvcapped3rps5twd7jg",
+        "resourceType": "Microsoft.Storage/storageAccounts",
+        "resourceName": "armnymvcapped3rps5twd7jg"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/179658e8-81e6-4f2c-acce-5012138ecc62/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Resources/deployments/fortunecloudllc1671478745936.storage_account_arm_-20250327170246/operations/8D1EE9B8D9018F76",
+    "operationId": "8D1EE9B8D9018F76",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2025-03-27T17:04:58.562336Z",
+      "duration": "PT1.3114489S",
+      "trackingId": "478bc75c-bc55-4fae-8a35-2bf5a7166847",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/179658e8-81e6-4f2c-acce-5012138ecc62/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Resources/deployments/pid-d78a52f6-84b0-4b3d-8e9f-17648dfd7615-partnercenter",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "pid-d78a52f6-84b0-4b3d-8e9f-17648dfd7615-partnercenter"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/179658e8-81e6-4f2c-acce-5012138ecc62/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Resources/deployments/fortunecloudllc1671478745936.storage_account_arm_-20250327170246/operations/08584585117891952144",
+    "operationId": "08584585117891952144",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2025-03-27T17:05:19.3235764Z",
+      "duration": "PT0.1419935S",
+      "trackingId": "90762cf2-a9aa-42f6-aa55-4c5d8fda5eeb",
+      "statusCode": "OK"
+    }
+  }
+]
